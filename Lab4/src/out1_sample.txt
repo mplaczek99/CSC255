@@ -1,0 +1,112 @@
+Heap
+1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 31 17 
+
+Insert 31
+Heap after insert 31
+1 2 6 4 3 10 7 27 5 21 9 31 36 43 8 44 32 40 17 42 28 31 17 45 
+
+Insert 14
+Heap after insert 14
+1 2 6 4 3 10 7 27 5 21 9 14 36 43 8 44 32 40 17 42 28 31 17 45 31 
+
+Delete min
+Heap after Delete min
+2 3 6 4 9 10 7 27 5 21 17 14 36 43 8 44 32 40 17 42 28 31 31 45 
+
+Delete min
+Heap after Delete min
+3 4 6 5 9 10 7 27 17 21 17 14 36 43 8 44 32 40 45 42 28 31 31 
+
+Delete min
+Heap after Delete min
+4 5 6 17 9 10 7 27 31 21 17 14 36 43 8 44 32 40 45 42 28 31 
+
+Delete min
+Heap after Delete min
+5 9 6 17 17 10 7 27 31 21 31 14 36 43 8 44 32 40 45 42 28 
+
+Delete min
+Heap after Delete min
+6 9 7 17 17 10 8 27 31 21 31 14 36 43 28 44 32 40 45 42 
+
+Delete min
+Heap after Delete min
+7 9 8 17 17 10 28 27 31 21 31 14 36 43 42 44 32 40 45 
+
+Delete min
+Heap after Delete min
+8 9 10 17 17 14 28 27 31 21 31 45 36 43 42 44 32 40 
+
+Delete min
+Heap after Delete min
+9 17 10 17 21 14 28 27 31 40 31 45 36 43 42 44 32 
+
+Delete min
+Heap after Delete min
+10 17 14 17 21 32 28 27 31 40 31 45 36 43 42 44 
+
+Delete min
+Heap after Delete min
+14 17 28 17 21 32 42 27 31 40 31 45 36 43 44 
+
+Delete min
+Heap after Delete min
+17 17 28 27 21 32 42 44 31 40 31 45 36 43 
+
+Delete min
+Heap after Delete min
+17 21 28 27 31 32 42 44 31 40 43 45 36 
+
+Delete min
+Heap after Delete min
+21 27 28 31 31 32 42 44 36 40 43 45 
+
+Delete min
+Heap after Delete min
+27 31 28 31 40 32 42 44 36 45 43 
+
+Delete min
+Heap after Delete min
+28 31 32 31 40 43 42 44 36 45 
+
+Delete min
+Heap after Delete min
+31 31 32 36 40 43 42 44 45 
+
+Delete min
+Heap after Delete min
+31 36 32 44 40 43 42 45 
+
+Delete min
+Heap after Delete min
+32 36 42 44 40 43 45 
+
+Delete min
+Heap after Delete min
+36 40 42 44 45 43 
+
+Delete min
+Heap after Delete min
+40 43 42 44 45 
+
+Delete min
+Heap after Delete min
+42 43 45 44 
+
+Delete min
+Heap after Delete min
+43 44 45 
+
+Delete min
+Heap after Delete min
+44 45 
+
+Delete min
+Heap after Delete min
+45 
+
+Delete min
+Heap after Delete min
+
+
+Deleted all

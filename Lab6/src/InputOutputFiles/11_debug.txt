@@ -1,0 +1,38 @@
+Encoding 11_in.txt -> 11_encoded.txt
+
+countCharacters:
+
+ 10 \n {2}
+ 13 \r {2}
+ 32 ' ' {2}
+ 97 'a' {1}
+101 'e' {3}
+104 'h' {1}
+114 'r' {2}
+117 'u' {1}
+
+printQueue:
+
+ 97 'a' {1}
+104 'h' {1}
+117 'u' {1}
+ 10 \n {2}
+ 13 \r {2}
+ 32 ' ' {2}
+114 'r' {2}
+101 'e' {3}
+
+makeBitData:
+
+ 10 \n {110}
+ 13 \r {111}
+ 32 ' ' {100}
+ 97 'a' {0010}
+101 'e' {01}
+104 'h' {0011}
+114 'r' {101}
+117 'u' {000}
+
+Decoding 11_encoded.txt -> 11_decoded.txt
+
+!!! Files 11_in.txt and 11_decoded.txt are equal.

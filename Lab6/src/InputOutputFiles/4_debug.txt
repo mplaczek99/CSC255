@@ -1,0 +1,26 @@
+Encoding 4_in.txt -> 4_encoded.txt
+
+countCharacters:
+
+ 10 \n {3}
+ 13 \r {3}
+ 97 'a' {4}
+ 98 'b' {2}
+
+printQueue:
+
+ 98 'b' {2}
+ 10 \n {3}
+ 13 \r {3}
+ 97 'a' {4}
+
+makeBitData:
+
+ 10 \n {01}
+ 13 \r {10}
+ 97 'a' {11}
+ 98 'b' {00}
+
+Decoding 4_encoded.txt -> 4_decoded.txt
+
+!!! Files 4_in.txt and 4_decoded.txt are equal.

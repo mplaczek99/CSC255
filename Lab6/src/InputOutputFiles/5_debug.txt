@@ -1,0 +1,32 @@
+Encoding 5_in.txt -> 5_encoded.txt
+
+countCharacters:
+
+ 10 \n {4}
+ 13 \r {4}
+ 32 ' ' {3}
+ 97 'a' {7}
+ 98 'b' {3}
+ 99 'c' {2}
+
+printQueue:
+
+ 99 'c' {2}
+ 32 ' ' {3}
+ 98 'b' {3}
+ 10 \n {4}
+ 13 \r {4}
+ 97 'a' {7}
+
+makeBitData:
+
+ 10 \n {101}
+ 13 \r {00}
+ 32 ' ' {011}
+ 97 'a' {11}
+ 98 'b' {100}
+ 99 'c' {010}
+
+Decoding 5_encoded.txt -> 5_decoded.txt
+
+!!! Files 5_in.txt and 5_decoded.txt are equal.

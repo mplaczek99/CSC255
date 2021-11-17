@@ -1,0 +1,32 @@
+Encoding 10_in.txt -> 10_encoded.txt
+
+countCharacters:
+
+ 10 \n {4}
+ 13 \r {4}
+ 97 'a' {2}
+ 98 'b' {3}
+ 99 'c' {2}
+100 'd' {2}
+
+printQueue:
+
+ 97 'a' {2}
+ 99 'c' {2}
+100 'd' {2}
+ 98 'b' {3}
+ 10 \n {4}
+ 13 \r {4}
+
+makeBitData:
+
+ 10 \n {01}
+ 13 \r {10}
+ 97 'a' {000}
+ 98 'b' {111}
+ 99 'c' {001}
+100 'd' {110}
+
+Decoding 10_encoded.txt -> 10_decoded.txt
+
+!!! Files 10_in.txt and 10_decoded.txt are equal.

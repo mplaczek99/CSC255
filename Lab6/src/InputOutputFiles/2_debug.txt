@@ -1,0 +1,17 @@
+Encoding 2_in.txt -> 2_encoded.txt
+
+countCharacters:
+
+ 97 'a' {3}
+
+printQueue:
+
+ 97 'a' {3}
+
+makeBitData:
+
+ 97 'a' {0}
+
+Decoding 2_encoded.txt -> 2_decoded.txt
+
+!!! Files 2_in.txt and 2_decoded.txt are equal.

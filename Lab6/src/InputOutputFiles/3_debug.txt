@@ -1,0 +1,20 @@
+Encoding 3_in.txt -> 3_encoded.txt
+
+countCharacters:
+
+ 97 'a' {6}
+ 98 'b' {2}
+
+printQueue:
+
+ 98 'b' {2}
+ 97 'a' {6}
+
+makeBitData:
+
+ 97 'a' {1}
+ 98 'b' {0}
+
+Decoding 3_encoded.txt -> 3_decoded.txt
+
+!!! Files 3_in.txt and 3_decoded.txt are equal.

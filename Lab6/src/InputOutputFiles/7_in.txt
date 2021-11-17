@@ -1,0 +1,9 @@
+7_in.txt
+ Created on: Jun 30, 2018
+     Author: kamilla
+The pseudocode in these assignments is a simplified subset and mix
+of high level programming languages such as C++, Java, and Python.
+As the programming languages are very different, it is not possible
+for pseudocode completely to resemble any given language. Some
+pseudocode features are similar to C++, some to Java, and some to
+Python.

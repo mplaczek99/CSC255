@@ -1,0 +1,7 @@
+studentName PlaczekMichael
+Given to student p,q,e,r
+p 29
+q 191
+e 241
+encrypted number r= 605
+Find n,d, decrypted number s, decrypted text s_str

@@ -1,0 +1,37 @@
+--- RSAAlgorithm
+ p 1413297339818079839
+ q 7795673610480062959
+ e 103687
+ n 11017604775781478904665244719208583601
+ d 5452326099268946397172763409398791927
+
+*** Encrypting 1_in.dat, size 12 -> 1_encrypted.txt ***
+
+--- RSACodec::encryptStream block #0, max length 15 ---
+
+BigNumberReader::readData - Requested count 15 bytes, got
+ [0] 'g' [1] 'r' [2] 'a' [3] 'v' [4] 'i' [5] 't' [6] 'a' [7] 't' [8] 'i' [9] 'o' [10] \r [11] \n
+BigNumberReader::readData - Read 0x6772617669746174696F0D0A as 12 bytes
+
+RSAAlgorithm::encrypt 0x6772617669746174696F0D0A -> 0x70FFBDD22E3449AA9505A398D0E4363
+
+--- RSACodec::encryptStream block #1, max length 15 ---
+
+BigNumberReader::readData - Requested count 15 bytes, got
+
+BigNumberReader::readData - Read 0x0 as 0 bytes
+
+Encrypted file 1_encrypted.txt size is 34
+
+*** Decrypting 1_encrypted.txt, size 34 -> 1_decrypted.dat ***
+
+--- RSACodec::decryptStream block #0, length 12 ---
+
+RSAAlgorithm::decrypt 0x70FFBDD22E3449AA9505A398D0E4363 -> 0x6772617669746174696F0D0A
+
+BigNumberWriter::writeData - Writing 0x6772617669746174696F0D0A as 12 bytes
+  [0] 'g' [1] 'r' [2] 'a' [3] 'v' [4] 'i' [5] 't' [6] 'a' [7] 't' [8] 'i' [9] 'o' [10] \r [11] \n
+
+Decrypted file 1_decrypted.dat size is 12
+
+>>> Files 1_in.dat and 1_decrypted.dat are equal.

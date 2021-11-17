@@ -1,0 +1,14 @@
+Encoding 1_in.txt -> 1_encoded.txt
+
+countCharacters:
+
+
+printQueue:
+
+
+makeBitData:
+
+
+Decoding 1_encoded.txt -> 1_decoded.txt
+
+!!! Files 1_in.txt and 1_decoded.txt are equal.
